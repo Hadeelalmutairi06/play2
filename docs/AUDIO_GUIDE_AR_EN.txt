@@ -1,0 +1,17 @@
+THE PHONE THAT KNOWS YOU — AUDIO / دليل الأصوات
+
+الأصوات الخمسة المضافة إلى اللعبة:
+notification.mp3 — وصول الرسائل / Incoming SMS
+ringtone.mp3 — المكالمات / Incoming call
+vibration.mp3 — اهتزاز الهاتف / Phone vibration
+tape.mp3 — التسجيل المشوش / Distorted recording
+gong.mp3 — اكتشاف مفاجئ أو نهاية / Revelation and endings
+rain.mp3 — المطر المستمر / Ambient rain
+
+طريقة الاستخدام: فعّل زر الأصوات لتسمع المؤثرات، وزر المطر مستقل عنه.
+تبدأ الأصوات بعد تفاعل اللاعب مع الصفحة، وفقًا لسياسات المتصفح.
+أحجام الصوت مضبوطة في js/app.js ضمن FX_VOLUME؛ يمكن تعديلها هناك.
+جميع المؤثرات لا تُشغَّل إلا في سياق حدث داخل القصة، ويمكن كتمها.
+
+How to play: Turn on SOUND for event effects; RAIN is controlled separately.
+Browsers only allow playback after user interaction. Adjust FX_VOLUME in js/app.js.
